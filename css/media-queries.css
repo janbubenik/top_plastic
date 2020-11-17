@@ -51,7 +51,7 @@ MEDIA QUERIES
 
 @media screen and (max-width: 1024px) {
   .header {
-    background-image: url("/01_top-plastic/img/011_background.png");
+    background-image: url("/img/011_background.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
