@@ -1,0 +1,120 @@
+/************************
+MEDIA QUERIES
+************************/
+@media screen and (max-width: 2650px) {
+  #logo {
+    width: 40rem;
+  }
+  h1 {
+    font-size: 16rem;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+  .row-main {
+    margin-top: 30rem;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  .row-main {
+    margin-top: 20rem;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  #logo {
+    width: 30rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  .row-main {
+    margin-top: 15rem;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  #logo {
+    width: 20rem;
+  }
+  .row-main {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .row-main {
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    background-image: url("/01_top-plastic/img/011_background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #logo {
+    width: 30rem;
+  }
+  h1 {
+    font-size: 13rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin-bottom: 8rem;
+  }
+  h2 {
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+  }
+  p {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .owl-theme .owl-dots {
+    text-align: center;
+    padding: 3rem 0rem;
+  }
+  .row-main {
+    height: 80rem;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #logo {
+    width: 20rem;
+    margin: 5rem 0 0 0;
+  }
+  h1 {
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  h2 {
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  p {
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .owl-theme .owl-dots {
+    display: none;
+  }
+  .row-main {
+    height: 45rem;
+    align-items: center;
+  }
+}

@@ -1,0 +1,96 @@
+/************************
+GLOBAL STYLES 
+************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 10rem;
+  font-family: "Anton", sans-serif;
+  color: #fffffe;
+  letter-spacing: 0.5rem;
+}
+
+h2 {
+  font-size: 7rem;
+  font-family: "Anton", sans-serif;
+  color: #af1e4d;
+  letter-spacing: 0.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  color: #fffffe;
+  font-weight: 300;
+  text-align: left;
+}
+
+#logo {
+  width: 30rem;
+  height: auto;
+  margin: 5rem 0 0 5rem;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium;
+  background-color: #000000;
+  border-radius: 0;
+  border: 0;
+  padding: 2rem 5rem;
+  letter-spacing: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  display: block;
+  transition: opacity 400ms ease;
+}
+
+.owl-dot {
+  margin-left: 0.8rem;
+}
+
+.owl-dot:focus {
+  outline: 0;
+}
+
+/* HEADER SECTION 
+----------------------------------------------------------------------------------------*/
+
+.header {
+  background-image: url("/img/01_background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.btn-1 {
+  margin-top: 5rem;
+}
+
+.owl-header,
+.owl-theme .owl-dots {
+  text-align: right;
+}
+
+/* ABOUT SECTION 
+----------------------------------------------------------------------------------------*/
+
+.about {
+  background-image: url("/img/02_background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
