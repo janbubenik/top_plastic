@@ -13,21 +13,22 @@ html {
 }
 
 h1 {
-  font-size: 10rem;
+  font-size: 15rem;
   font-family: "Anton", sans-serif;
   color: #fffffe;
   letter-spacing: 0.5rem;
+  line-height: 1.1;
 }
 
 h2 {
-  font-size: 7rem;
+  font-size: 4rem;
   font-family: "Anton", sans-serif;
   color: #af1e4d;
   letter-spacing: 0.5rem;
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-family: "Montserrat", sans-serif;
   color: #fffffe;
   font-weight: 300;
@@ -56,12 +57,12 @@ p {
   transition: opacity 400ms ease;
 }
 
-.owl-dot {
-  margin-left: 0.8rem;
-}
-
 .owl-dot:focus {
   outline: 0;
+}
+
+.row {
+  min-height: 80vh;
 }
 
 /* HEADER SECTION 
@@ -81,13 +82,41 @@ p {
 
 .owl-header,
 .owl-theme .owl-dots {
-  text-align: right;
+  text-align: left;
 }
 
 /* ABOUT SECTION 
 ----------------------------------------------------------------------------------------*/
 
 .about {
+  background-image: url("/img/02_background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* WORK SECTION 
+----------------------------------------------------------------------------------------*/
+
+.work {
+  background-image: url("/img/011_background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.work-heading {
+  bottom: 60rem;
+  right: 10rem;
+  z-index: 5;
+}
+
+/* TECHNOLOGY SECTION 
+----------------------------------------------------------------------------------------*/
+
+.technology {
   background-image: url("/img/02_background.png");
   background-position: center;
   background-size: cover;

@@ -5,20 +5,16 @@ MEDIA QUERIES
   #logo {
     width: 40rem;
   }
-  h1 {
-    font-size: 16rem;
-  }
-  p {
-    font-size: 2.5rem;
-  }
-  .row-main {
-    margin-top: 30rem;
-  }
 }
 
 @media screen and (max-width: 1920px) {
-  .row-main {
-    margin-top: 20rem;
+  h1 {
+    font-size: 13rem;
+  }
+  .work-heading {
+    bottom: 55rem;
+    right: 15rem;
+    z-index: 5;
   }
 }
 
@@ -26,11 +22,13 @@ MEDIA QUERIES
   #logo {
     width: 30rem;
   }
-  p {
-    font-size: 2rem;
+  .work-heading {
+    bottom: 45rem;
+    right: 25rem;
+    z-index: 5;
   }
-  .row-main {
-    margin-top: 15rem;
+  h1 {
+    font-size: 9rem;
   }
 }
 
@@ -38,14 +36,18 @@ MEDIA QUERIES
   #logo {
     width: 20rem;
   }
-  .row-main {
-    margin-top: 10rem;
+  .work-heading {
+    bottom: 43rem;
+    right: 28rem;
+    z-index: 5;
   }
 }
 
 @media screen and (max-width: 1280px) {
-  .row-main {
-    margin-top: 5rem;
+  .work-heading {
+    bottom: 43rem;
+    right: 30rem;
+    z-index: 5;
   }
 }
 
@@ -57,34 +59,28 @@ MEDIA QUERIES
     background-repeat: no-repeat;
     min-height: 100vh;
   }
+  h2 {
+    display: none;
+  }
+  .work-heading {
+    position: unset;
+  }
 }
 
 @media screen and (max-width: 768px) {
   #logo {
     width: 30rem;
   }
-  h1 {
-    font-size: 13rem;
-    letter-spacing: 0.2rem;
-    text-align: center;
-    margin-bottom: 8rem;
-  }
-  h2 {
-    font-size: 5rem;
-    letter-spacing: 0.2rem;
-    text-align: center;
-  }
-  p {
-    font-size: 2rem;
-    text-align: center;
-  }
   .owl-theme .owl-dots {
-    text-align: center;
-    padding: 3rem 0rem;
+    display: none;
   }
-  .row-main {
-    height: 80rem;
-    align-items: center;
+  h1,
+  p {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .work {
+    min-height: 120vh;
   }
 }
 
@@ -94,27 +90,14 @@ MEDIA QUERIES
     margin: 5rem 0 0 0;
   }
   h1 {
-    font-size: 5rem;
-    letter-spacing: 0.2rem;
+    font-size: 4rem;
     text-align: center;
-    margin-bottom: 2rem;
-  }
-  h2 {
-    font-size: 5rem;
-    letter-spacing: 0.2rem;
-    text-align: center;
-    margin-bottom: 2rem;
   }
   p {
-    margin-top: 5rem;
     font-size: 1.5rem;
     text-align: center;
   }
-  .owl-theme .owl-dots {
-    display: none;
-  }
-  .row-main {
-    height: 45rem;
-    align-items: center;
+  .btn-3 {
+    margin-top: 30rem;
   }
 }
